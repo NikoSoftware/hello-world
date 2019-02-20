@@ -5,7 +5,6 @@ import App from './App'
 import router from './router'
 import {post, fetch, patch, put} from './net/http'
 import { Icon } from 'ant-design-vue';
-import 'ant-design-vue/dist/antd.css'
 
 Vue.config.productionTip = false
 

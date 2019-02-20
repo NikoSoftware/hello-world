@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="App">
     <div>
       <button @click="mounted">请求</button>
       <P>{{msg}}</P>
