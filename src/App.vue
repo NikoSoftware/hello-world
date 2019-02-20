@@ -1,5 +1,5 @@
 <template>
-  <div id="App">
+  <div id="app">
     <div>
       <button @click="mounted">请求</button>
       <P>{{msg}}</P>
@@ -12,7 +12,7 @@
 
 <script>
     export default {
-        name: 'App',
+        name: 'app',
         data () {
             return {
                 msg: '我喜欢'
