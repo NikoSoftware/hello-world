@@ -4,11 +4,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import {post, fetch, patch, put} from './net/http'
-import { Icon } from 'ant-design-vue';
+import  Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css'
 
 Vue.config.productionTip = false
 
-Vue.use(Icon);
+Vue.use(Antd);
 Vue.prototype.$post = post
 Vue.prototype.$fetch = fetch
 Vue.prototype.$patch = patch

@@ -5,6 +5,7 @@
       <P>{{msg}}</P>
       <router-link  to="/home"> 跳转 hello world</router-link>
       <router-link  to="/about"> 跳转 about</router-link>
+      <router-link  to="/login">跳转到 login</router-link>
     </div>
     <router-view/>
   </div>
